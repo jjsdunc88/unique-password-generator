@@ -16,7 +16,13 @@ function generatePassword() {
   if (pwordLength >= 8 && pwordLength <= 128 && Number.isInteger(Number(pwordLength)))
   
   
-  
+      // TODO:
+      //  remove console logs from JS
+      //  update JS comments 
+      //  deploy live
+      //  finish readme 
+      
+    
   {
 
     // do you want lowercase?
@@ -50,7 +56,6 @@ function generatePassword() {
 
     console.log(characterPool)
 
-    
 
     // ......
     // pull random characters from characterPool and create password
@@ -63,11 +68,7 @@ function generatePassword() {
       console.log(finalArray);
     }
 
-
-    
-
   }
-
 
 }
 
