@@ -14,36 +14,38 @@ function generatePassword() {
 
   if (pwordLength >= 8 && pwordLength <= 128) {
 
-    // do you want lowercase? YES
-    var useLowercase = confirm("Include Lower Case")
+    // do you want lowercase?
+    var useLowercase = confirm("Include Lower Case?")
     console.log(useLowercase)
     if(useLowercase) {
       characterPool = characterPool.concat(lowerCase)
     }
-    // add lowercase values to characterPool
-
-    //do you want uppercase? NO
-    var useUppercase = confirm("Include Upper Case")
+    
+    // do you want uppercase? 
+    var useUppercase = confirm("Include Upper Case?")
     console.log(useUppercase)
     if(useUppercase) {
       characterPool = characterPool.concat(upperCase)
     }
+
+    // do you want numbers?
+    var useNumeric = confirm("Include Numbers?")
+    console.log(useNumeric)
+    if(useNumeric) {
+      characterPool = characterPool.concat(numbers)
+    }
+
+    // do you want unique characters?
+    var useUnique = confirm("Include Unique Characters?")
+    console.log(useUnique)
+    if(useUnique) {
+      characterPool = characterPool.concat(uniqueChar)
+    }
    
-
-    
-
-
-
-
 
     console.log(characterPool)
 
-    // TODO: ask more questions (numeric/special chars)
-
-
-
-
-
+    
 
     // ......
     // pull random characters from characterPool and create password
