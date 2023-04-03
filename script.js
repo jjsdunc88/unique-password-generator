@@ -10,14 +10,13 @@ var finalArray = "";
 var pwordLength = "";
 
 function generatePassword() {
-  console.log("hello");
   pwordLength = prompt("Please select a password length between 8-128 characters");
 
   if (pwordLength >= 8 && pwordLength <= 128 && Number.isInteger(Number(pwordLength)))
   
   
       // TODO:
-      //  remove console logs from JS
+    
       //  update JS comments 
       //  deploy live
       //  finish readme 
@@ -27,34 +26,30 @@ function generatePassword() {
 
     // do you want lowercase?
     var useLowercase = confirm("Include Lower Case?")
-    console.log(useLowercase)
     if(useLowercase) {
       characterPool = characterPool.concat(lowerCase)
     }
     
     // do you want uppercase? 
     var useUppercase = confirm("Include Upper Case?")
-    console.log(useUppercase)
     if(useUppercase) {
       characterPool = characterPool.concat(upperCase)
     }
 
     // do you want numbers?
     var useNumeric = confirm("Include Numbers?")
-    console.log(useNumeric)
     if(useNumeric) {
       characterPool = characterPool.concat(numbers)
     }
 
     // do you want unique characters?
     var useUnique = confirm("Include Unique Characters?")
-    console.log(useUnique)
     if(useUnique) {
       characterPool = characterPool.concat(uniqueChar)
     }
    
 
-    console.log(characterPool)
+  
 
 
     // ......
@@ -62,10 +57,8 @@ function generatePassword() {
     for (var i = 0; i < parseInt(pwordLength); i++) {
       var randomIndex = Math.floor(Math.random() * characterPool.length);
       var x = characterPool[randomIndex]
-      console.log(x);
-      // console.log(characterPool);
       finalArray = finalArray.concat(x);
-      console.log(finalArray);
+     
     }
 
   }
