@@ -16,17 +16,7 @@ var pwordLength = "";
 function generatePassword() {
   pwordLength = prompt("Please select a password length between 8-128 characters");
 
-  if (pwordLength >= 8 && pwordLength <= 128 && Number.isInteger(Number(pwordLength)))
-
-
-  // TODO:
-
-
-  //  deploy live
-  //  finish readme 
-
-
-  {
+  if (pwordLength >= 8 && pwordLength <= 128 && Number.isInteger(Number(pwordLength))) {
 
     // Confirm Box to include Lowercase letters
     var useLowercase = confirm("Include Lower Case?")
