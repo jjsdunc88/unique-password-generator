@@ -10,7 +10,7 @@ During this project, I learned about basic JavaScript function and how a js file
 
 ![alt text](./assets/Screenshot%202023-04-02%20232734.png)
 
-[Click here for live website]()
+[Click here for live website](https://jjsdunc88.github.io/unique-password-generator/)
 
 
 ## Credits
@@ -23,11 +23,3 @@ I worked with classmate [Myro Lee](https://github.com/myrojoylee) and tutor Neil
 Please refer to the LICENSE in the repo.
 
 
-
-
-
-
-
-  // TODO:
-  //  deploy live
-  //  finish readme 
