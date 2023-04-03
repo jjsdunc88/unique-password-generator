@@ -1,5 +1,6 @@
 # unique-password-generator
 
+
 ## Description
 
 In this project, we completed JavaScript starter code to create an application that enables users to generate random passwords based on criteria that they’ve selected.  
